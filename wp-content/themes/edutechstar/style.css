@@ -109,6 +109,16 @@ img {
   border: none;
 }
 
+.imgi{
+  width: 10vw;
+}
+img.left-image-small {
+  max-width: 10vw; 
+  height: auto;
+}
+.right-image-small {
+  width: 100px; 
+}
 .mu-read-more-btn {
   border: 1px solid #fff;
   color: #fff;
