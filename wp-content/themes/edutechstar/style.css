@@ -312,13 +312,12 @@ img.left-image-small {
  }
 
 #mu-menu .navbar-header .navbar-brand {
-  color: #333;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 5px;
-  letter-spacing: 0.5px;;
+  letter-spacing: 0.5px;
 
   /* padding-right: 50px; */
 }
