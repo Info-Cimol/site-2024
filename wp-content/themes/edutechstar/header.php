@@ -32,7 +32,7 @@
 <section id="mu-menu">
     <nav class="main-navbar navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <div class="navbar-header p-2 pb-4">
+            <div class="navbar-header p-0 pb-4 col-1 ">
                 <?php
                 $custom_logo_id = get_theme_mod('custom_logo');
                 $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
@@ -41,7 +41,7 @@
                 <?php }
                 if (display_header_text() == true) { ?>
                     <div>
-                        <a class="navbar-brand imgi" href="<?php echo esc_url(home_url()); ?>">
+                        <a class="w-100 navbar-brand" href="<?php echo esc_url(home_url()); ?>">
                             <span class="site-title"><?php bloginfo('name'); ?></span>
                         </a>
                         <p><span class="site-description"><?php bloginfo('description'); ?></span></p>
@@ -50,20 +50,20 @@
                 ?>
             </div>
 
-            <div class="collapse navbar-collapse my-lg-0" id="navbarNav">
+            <div class="collapse col-9  navbar-collapse align-self-center" >
                 <?php
                 wp_nav_menu(
                     array(
                         'theme_location' => 'primary',
                         'container' => '',
-                        'menu_class' => 'navbar-nav navbar__nav  nav justify-content-end menuon',
+                        'menu_class' => 'text-white navbar-nav navbar__nav  nav justify-content-end menuon',
                         'menu_id' => 'primary-menu',
                     )
                 );
                 ?>
             </div>
 
-            <div class="right-image">
+            <div class="right-image m-3">
               <img  width="100" class="right-image-small"src="http://localhost/word/img/logoCimolBranco.png" alt="Cimol">
             </div>
 

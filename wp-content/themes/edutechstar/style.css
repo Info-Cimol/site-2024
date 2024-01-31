@@ -228,6 +228,9 @@ img.left-image-small {
 /*==================
  HEADER SECTION
 ====================*/
+.container{
+  width: 100%;
+}
 #mu-header {
   background-color: #01bafd;
   display: inline;
@@ -374,8 +377,7 @@ img.left-image-small {
   color: #fff;
 }
 .navbar-header img{
-  width: 180px;
-  height: 70px;
+  width: 100vw;
   margin-top: 10px;
   margin-bottom: -30px;
   margin-left: 30px;
@@ -857,6 +859,7 @@ font-size: 40px;
   float: right;
 }
 
+
      /*==================
       FROM BLOG SECTION
      ====================*/
@@ -978,6 +981,7 @@ font-size: 40px;
     .mu-blog-single-item .mu-blog-description a:hover, .mu-blog-single-item .mu-blog-description a:focus {
       color: #fff;
     }
+
     
 
 /*==================
@@ -2361,13 +2365,12 @@ ul.children {
 }
 .main-navbar ul.navbar-nav >.menu-item,
 .main-navbar div.menuon ul >.page_item{
-     margin-left: 15px;
-    margin-right: 10px;
-  padding: 0; 
+     margin-left: 6vw;
+    margin-right: 2vw; 
 }
 .main-navbar ul.navbar-nav >.menu-item a,
 .main-navbar div.menuon ul >.page_item a{
-  color: #333333;
+  color: #fff;
   font-size: 17px;
   font-weight: 700;
   margin-top: 17px;
@@ -2660,6 +2663,7 @@ margin-top: 17px;
     background: transparent;
   }
   .slicknav_nav a {
+    color:#fff;
     font-size: 15px;
   }
   .slicknav_nav .slicknav_row:hover,
