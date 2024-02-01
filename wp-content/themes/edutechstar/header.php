@@ -32,7 +32,7 @@
 <section id="mu-menu">
     <nav class="main-navbar navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <div class="navbar-header p-0 pb-4 col-1 ">
+            <div class="navbar-header p-0 pb-4 col-md-1 col col-sm-3 ">
                 <?php
                 $custom_logo_id = get_theme_mod('custom_logo');
                 $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
@@ -50,7 +50,7 @@
                 ?>
             </div>
 
-            <div class="collapse col-9  navbar-collapse align-self-center" >
+            <div class="collapse col navbar-collapse align-self-center" >
                 <?php
                 wp_nav_menu(
                     array(
