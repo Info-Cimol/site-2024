@@ -376,10 +376,7 @@ img.left-image-small {
 #mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus {
   color: #fff;
 }
-.navbar-header img{
-  padding-top: 20%;
-  vertical-align:auto;
-}
+
 
 /* ALL SECTION */
 /*scrol to top*/
@@ -1803,7 +1800,7 @@ word-wrap: break-word;
   }
 
   #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
-    padding: 60px 15px;
+    padding: 0px 15px;
   }
 
   #mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote blockquote::before {
@@ -1811,11 +1808,11 @@ word-wrap: break-word;
   }
 
   #mu-from-blog {
-    padding: 60px 0;
+    padding: 0px 0;
   }
 
   #mu-from-blog .mu-from-blog-area .mu-from-blog-content {
-    margin-top: 30px;
+    margin-top: 0px;
   }
 
   #mu-from-blog .mu-from-blog-area .mu-from-blog-content .mu-blog-single-item .mu-blog-meta a {
@@ -1848,25 +1845,19 @@ word-wrap: break-word;
   }
 }
 @media (max-width: 767px) {
-  .navbar-header {
-    padding: 10px 0;
-  }
 
-  #mu-menu .navbar-header .navbar-brand {
-    padding-top: 10px;
-  }
 
   #mu-search-icon {
     display: none;
   }
 
   .navbar-toggle {
-    background-color: #01bafd;
+    background-color: #2d809e;
     border-radius: 0;
   }
 
   .navbar-default .navbar-toggle {
-    border-color: #01bafd;
+    border-color: #d1e7ee;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -2643,50 +2634,6 @@ margin-top: 17px;
   .hide-on-desktop {
     display: none !important;
 }
-  .slicknav_menu {
-    display: block;
-    background: transparent;
-    position: relative;
-    z-index: 999;
-  }
-  .slicknav_nav {
-    background: #444444;
-    position: relative;
-    top: 0px;
-    padding: 10px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.23);
-  }
-  .slicknav_btn {
-    background: transparent;
-  }
-  .slicknav_nav a {
-    color:#fff;
-    font-size: 15px;
-  }
-  .slicknav_nav .slicknav_row:hover,
-  .slicknav_nav a:hover {
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 0;
-    background: transparent;
-  }
-  .slicknav_nav .slicknav_arrow {
-    float: right;
-  }
-  .slicknav_brand {
-        height: 70px;
-        max-width: 150px;
-
-  }
-  .slicknav_btn {
-    padding: 22px 0;
-    }
-    .slicknav_menu .slicknav_icon-bar {
-        background-color: #212121;
-  }
-  .header-two .slicknav_menu .slicknav_icon-bar {
-    background-color: #fff;
-  }
 }
 .tag-sticky-2 .mu-blog-single-item,.sticky { 
   background-color:#ededed !important;

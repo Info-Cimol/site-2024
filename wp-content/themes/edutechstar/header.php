@@ -30,54 +30,50 @@
 
 <!-- Start menu -->
 <section id="mu-menu">
-    <nav class="main-navbar navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <div class="navbar-header p-0 pb-4 col-md-1 col col-sm-3 ">
-                <?php
-                $custom_logo_id = get_theme_mod('custom_logo');
-                $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
-                if (has_custom_logo()) { ?>
-                    <?php the_custom_logo(); ?>
-                <?php }
-                if (display_header_text() == true) { ?>
-                    <div>
-                        <a class="w-100 navbar-brand" href="<?php echo esc_url(home_url()); ?>">
-                            <span class="site-title"><?php bloginfo('name'); ?></span>
-                        </a>
-                        <p><span class="site-description"><?php bloginfo('description'); ?></span></p>
-                    </div>
-                <?php }
-                ?>
-            </div>
-
-            <div class="collapse col navbar-collapse align-self-center" >
-                <?php
-                wp_nav_menu(
-                    array(
-                        'theme_location' => 'primary',
-                        'container' => '',
-                        'menu_class' => 'text-white navbar-nav navbar__nav  nav justify-content-end menuon',
-                        'menu_id' => 'primary-menu',
-                    )
-                );
-                ?>
-            </div>
-
-            <div class="right-image m-3">
-              <img  width="100" class="right-image-small"src="http://localhost/word/img/logoCimolBranco.png" alt="Cimol">
-            </div>
-
+<nav class="main-navbar navbar navbar-expand-lg navbar-light mb-0">
+    <div class="container">
+        <div class="navbar-header p-0 pb-4 col-2 col-md-1">
+            <?php
+            $custom_logo_id = get_theme_mod('custom_logo');
+            $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
+            if (has_custom_logo()) { ?>
+                <?php the_custom_logo(); ?>
+            <?php }
+            if (display_header_text() == true) { ?>
+                <div>
+                    <a class="w-100 " href="<?php echo esc_url(home_url()); ?>">
+                        <span class="site-title"><?php bloginfo('name'); ?></span>
+                    </a>
+                    <p><span class="site-description"><?php bloginfo('description'); ?></span></p>
+                </div>
+            <?php }
+            ?>
         </div>
-    </nav>
-    <?php $custom_logo_id = get_theme_mod('custom_logo');
-    $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
-    if (has_custom_logo()) { ?>
-        <div class="mobile-menu" data-type="logo" data-link="<?php echo esc_attr(home_url('/')); ?>"
-             data-logo="<?php echo esc_attr($logo[0]); ?>"> </div>
-    <?php } else { ?>
-        <div class="mobile-menu" data-type="text" data-link="<?php echo esc_attr(home_url('/')); ?>"
-             data-logo="<?php bloginfo('name'); ?>"> </div>
-    <?php } ?>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse col navbar-collapse align-self-center" id="navbarNav">
+            <?php
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'primary',
+                    'container' => '',
+                    'menu_class' => 'text-white navbar-nav navbar__nav  nav justify-content-center menuon',
+                    'menu_id' => 'primary-menu',
+                )
+            );
+            ?>
+        </div>
+        
+        <div class="d-none d-lg-block"> 
+            <div class="right-image">
+                <img width="100" class="right-image-small imgcimol" src="http://localhost/word/img/logoCimolBranco.png" alt="Cimol">
+            </div>
+        </div>
+    </div>
+</nav>
+
 </section>
 <!-- End menu -->
 
