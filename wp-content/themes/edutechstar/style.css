@@ -109,9 +109,7 @@ img {
   border: none;
 }
 
-.imgi{
-  width: 10vw;
-}
+
 img.left-image-small {
   max-width: 10vw; 
   height: auto;
@@ -1001,7 +999,7 @@ font-size: 40px;
 }
 
 #mu-page-breadcrumb {
-  background-color: #08565a;
+  background-color: #4bb8be;
   display: inline;
   float: left;
   padding: 40px 0;
@@ -1587,7 +1585,7 @@ word-wrap: break-word;
   width: 100%;
 }
 #mu-footer .mu-footer-top {
-  background-color: #04767d;
+  background-color: #154143;
   display: inline;
   float: left;
   padding: 50px 0;
@@ -2353,8 +2351,9 @@ ul.children {
 }
 .main-navbar ul.navbar-nav >.menu-item,
 .main-navbar div.menuon ul >.page_item{
-     margin-left: 6vw;
-    margin-right: 2vw; 
+    margin-left: 2vw;
+    justify-content: center;
+    margin-right: 1vw; 
 }
 .main-navbar ul.navbar-nav >.menu-item a,
 .main-navbar div.menuon ul >.page_item a{

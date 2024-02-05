@@ -32,7 +32,7 @@
 <section id="mu-menu">
 <nav class="main-navbar navbar navbar-expand-lg navbar-light mb-0">
     <div class="container">
-        <div class="navbar-header p-0 pb-4 col-2 col-md-1">
+        <div class="navbar-header p-0 pb-2 col-2 col-md-1">
             <?php
             $custom_logo_id = get_theme_mod('custom_logo');
             $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
