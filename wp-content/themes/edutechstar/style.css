@@ -696,7 +696,7 @@ font-size: 40px;
   position: relative;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature h4:after {
-  background-color: #333;
+  background-color: #04767d;
   content: '';
   left: 0;
   right: 0;
@@ -1004,6 +1004,7 @@ font-size: 40px;
   background-color: #04767d;
   display: inline;
   float: left;
+  padding: 30px 0;
   width: 100%;
 }
 #mu-page-breadcrumb .mu-page-breadcrumb-area {
@@ -1586,7 +1587,7 @@ word-wrap: break-word;
   width: 100%;
 }
 #mu-footer .mu-footer-top {
-  background-color: #333;
+  background-color: #04767d;
   display: inline;
   float: left;
   padding: 50px 0;
