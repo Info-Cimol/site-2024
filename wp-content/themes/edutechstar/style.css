@@ -999,10 +999,10 @@ font-size: 40px;
 }
 
 #mu-page-breadcrumb {
-  background-color: #4bb8be;
+  background-color: #000;
   display: inline;
   float: left;
-  padding: 40px 0;
+  padding: 30px 0;
   width: 100%;
 }
 #mu-page-breadcrumb .mu-page-breadcrumb-area {
@@ -1032,7 +1032,7 @@ font-size: 40px;
   background-color: #f8f8f8;
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding:30px 0;
   width: 100%;
 }
 #mu-course-content .mu-course-content-area {
@@ -2351,7 +2351,7 @@ ul.children {
 }
 .main-navbar ul.navbar-nav >.menu-item,
 .main-navbar div.menuon ul >.page_item{
-    margin-left: 2vw;
+    margin-left: 7vw;
     justify-content: center;
     margin-right: 1vw; 
 }
