@@ -32,30 +32,26 @@ if(is_home() || is_front_page()){the_content(); }else{ ?>
       <div class="row">
         <div class="col-md-12">
           <div class="mu-course-content-area">
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="col-md-9">
                 <!-- start course content container -->
                 <div class="mu-course-container mu-blog-single">
                   <div class="row">
-                    <?php if (have_posts()) :
-                      while (have_posts()) : the_post(); 
-                        get_template_part( 'template-parts/content', 'page' );  
-                        if ( comments_open() || get_comments_number() ) :
-                          comments_template();
-                        endif;
-                      endwhile;
-                    endif; ?>
+                    <div class="col-md-12">
+                      <?php if (have_posts()) :
+                        while (have_posts()) : the_post(); 
+                          get_template_part( 'template-parts/content', 'page' );  
+                          if ( comments_open() || get_comments_number() ) :
+                            comments_template();
+                          endif;
+                        endwhile;
+                      endif; ?>
+                    </div>
                   </div>
                 </div>
                 <!-- end course content container -->
               </div>
-              <div class="col-md-3">
-                <aside class="mu-sidebar">
-                  <div class="mu-single-sidebar">
-                    <?php get_sidebar(); ?>
-                  </div>
-                </aside>
-              </div>
+              
             </div>
           </div>
         </div>
