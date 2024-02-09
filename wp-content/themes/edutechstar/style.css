@@ -2352,7 +2352,7 @@ ul.children {
 }
 .main-navbar ul.navbar-nav >.menu-item,
 .main-navbar div.menuon ul >.page_item{
-    margin-left: 7vw;
+    margin-left: 3vw;
     justify-content: center;
     margin-right: 1vw; 
 }
