@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'infocimol14' );
+define( 'DB_NAME', 'infocimol18' );
 
 /** Database username */
-define( 'DB_USER', 'infocimol14' );
+define( 'DB_USER', 'infocimol18' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'S1i2t3e4' );
+define( 'DB_PASSWORD', 'infocimol18' );
 
 /** Database hostname */
 define( 'DB_HOST', 'mysql.infocimol.com.br' );

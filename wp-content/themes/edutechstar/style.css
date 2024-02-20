@@ -831,7 +831,7 @@ font-size: 40px;
   border-top: 1px solid #ccc;
   display: inline;
   float: left;
-  margin-top: 15px;
+  margin-top: 10px;
   padding-top: 15px;
   width: 100%;
 }
@@ -875,13 +875,11 @@ font-size: 40px;
     
     .mu-blog-single-item,.type-post {
       display: inline;
-      float: left;
-      width: 100%;
-      box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
-      padding: 10px;
-      margin:12px;
+      float: left;  
+      width: 80%;
+      text-align: center;
       background-color: #fff;
-      border-radius: 8px;
+      border-radius: 20px;
     
     }
     .mu-blog-single-item .mu-blog-single-img {
@@ -896,7 +894,7 @@ font-size: 40px;
     .mu-blog-single-item .mu-blog-single-img a img  {
       width: 100%;
       height: 50%;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
     .mu-blog-single-item .mu-blog-single-img .mu-blog-caption h3 a {
       display: inline;
@@ -951,7 +949,6 @@ font-size: 40px;
       float: left;
       width: 100%;
       letter-spacing: 0.3px;
-      padding: 10px 10px;
     }
     .mu-blog-single-item .mu-blog-description p {
       font-size: 15px;
