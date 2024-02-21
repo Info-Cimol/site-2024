@@ -68,7 +68,7 @@
         
         <div class="d-none d-lg-block"> 
             <div class="right-image">
-                <img width="100" class="right-image-small imgcimol" src="http://infocimol/img/logoCimolBranco.png" alt="Cimol">
+                <img width="100" class="right-image-small imgcimol" src="http://localhost/word/img/logoCimolBranco.png" alt="Cimol">
             </div>
         </div>
     </div>
